@@ -1,0 +1,133 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="4TuXoVWfQr0GX65xSzH4">
+    <mxGraphModel dx="1426" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-1" value="Вне ИС" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="320" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-1" source="IqiLkzHum3_6B3jKZKYo-3" target="IqiLkzHum3_6B3jKZKYo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-3" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-1">
+          <mxGeometry x="145" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-4" value="Запрос книги" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-1">
+          <mxGeometry x="90" y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-1" source="IqiLkzHum3_6B3jKZKYo-10" target="IqiLkzHum3_6B3jKZKYo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-10" value="Уведомление о недоступности книги" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-1">
+          <mxGeometry x="90" y="175" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-12" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-1">
+          <mxGeometry x="145" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-1" source="IqiLkzHum3_6B3jKZKYo-17" target="IqiLkzHum3_6B3jKZKYo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-17" value="Уведомление о запрете выдачи" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-1">
+          <mxGeometry x="90" y="305" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-20" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-1">
+          <mxGeometry x="145" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-24" value="Вручение книги" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-1">
+          <mxGeometry x="90" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-2" value="ИС" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="320" height="710" as="geometry">
+            <mxRectangle x="440" y="120" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-2" source="IqiLkzHum3_6B3jKZKYo-6" target="IqiLkzHum3_6B3jKZKYo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-6" value="Проверка статуса книги" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-2">
+          <mxGeometry x="90" y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-2" source="IqiLkzHum3_6B3jKZKYo-8" target="IqiLkzHum3_6B3jKZKYo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-33" value="[Иначе]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IqiLkzHum3_6B3jKZKYo-15">
+          <mxGeometry x="-0.4667" relative="1" as="geometry">
+            <mxPoint x="30" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-8" value="" style="rhombus;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-2">
+          <mxGeometry x="145" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-2" source="IqiLkzHum3_6B3jKZKYo-14" target="IqiLkzHum3_6B3jKZKYo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-14" value="Проверка статуса читателя" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-2">
+          <mxGeometry x="90" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-2" source="IqiLkzHum3_6B3jKZKYo-16" target="IqiLkzHum3_6B3jKZKYo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-35" value="[Иначе]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IqiLkzHum3_6B3jKZKYo-23">
+          <mxGeometry x="0.24" relative="1" as="geometry">
+            <mxPoint x="30" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-16" value="" style="rhombus;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-2">
+          <mxGeometry x="145" y="310" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-22" value="Запрос библиотекарю на выдачу книги" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-2">
+          <mxGeometry x="90" y="370" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-2" source="IqiLkzHum3_6B3jKZKYo-26" target="IqiLkzHum3_6B3jKZKYo-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-26" value="Формирование отчёта о выдаче книги" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-2">
+          <mxGeometry x="90" y="510" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IqiLkzHum3_6B3jKZKYo-2" source="IqiLkzHum3_6B3jKZKYo-28" target="IqiLkzHum3_6B3jKZKYo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-28" value="Обновление отчётных данных" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-2">
+          <mxGeometry x="90" y="580" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-30" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="IqiLkzHum3_6B3jKZKYo-2">
+          <mxGeometry x="145" y="650" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IqiLkzHum3_6B3jKZKYo-4" target="IqiLkzHum3_6B3jKZKYo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IqiLkzHum3_6B3jKZKYo-8" target="IqiLkzHum3_6B3jKZKYo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-32" value="[Книга недоступна]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IqiLkzHum3_6B3jKZKYo-11">
+          <mxGeometry x="-0.1574" y="-1" relative="1" as="geometry">
+            <mxPoint x="44" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IqiLkzHum3_6B3jKZKYo-16" target="IqiLkzHum3_6B3jKZKYo-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-34" value="[Есть запрет на выдачу]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IqiLkzHum3_6B3jKZKYo-19">
+          <mxGeometry x="-0.0723" y="-1" relative="1" as="geometry">
+            <mxPoint x="44" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IqiLkzHum3_6B3jKZKYo-22" target="IqiLkzHum3_6B3jKZKYo-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IqiLkzHum3_6B3jKZKYo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IqiLkzHum3_6B3jKZKYo-24" target="IqiLkzHum3_6B3jKZKYo-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

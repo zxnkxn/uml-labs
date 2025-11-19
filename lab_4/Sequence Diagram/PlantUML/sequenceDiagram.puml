@@ -1,0 +1,38 @@
+@startuml
+actor Reader
+participant UI
+participant Core
+participant "Loan Manager" as LoanManager
+participant "Book Catalog" as BookCatalog
+participant Database
+participant "Fine Manager" as FineManager
+
+Reader -> UI: запрос на выдачу книги
+UI -> Core: передать запрос
+Core -> LoanManager: оформить выдачу
+
+alt Книга доступна
+    LoanManager -> BookCatalog: проверить статус книги
+    BookCatalog -> Database: запрос данных о книге
+    Database --> BookCatalog: вернуть статус книги
+    BookCatalog --> LoanManager: вернуть результат проверки
+    LoanManager -> Database: сохранить запись о выдаче
+    Database --> LoanManager: подтверждение сохранения
+
+    opt Начисление штрафа за просрочку (если есть)
+        LoanManager -> FineManager: начислить штраф
+        FineManager --> LoanManager: подтверждение
+    end
+
+    LoanManager --> Core: выдача оформлена
+    Core --> UI: показать результат
+    UI --> Reader: уведомление о выдаче
+
+else Книга недоступна
+    LoanManager --> Core: книга недоступна
+    Core --> UI: уведомление о недоступности
+    UI --> Reader: уведомление
+end
+
+@enduml
+

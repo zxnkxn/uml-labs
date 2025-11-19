@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{fontspec}
+
+\setmainfont{Times New Roman}
+
+\begin{document}
+	
+	\section*{Описание диаграммы размещения}
+	
+	Диаграмма размещения состоит из трёх основных узлов (nodes):
+	
+	\begin{enumerate}
+		\item \textbf{Client Device} — клиентское устройство.
+		На нём развёрнут один артефакт:
+		\begin{itemize}
+			\item \textbf{UI} — пользовательский интерфейс.
+		\end{itemize}
+		
+		\item \textbf{Application Server} — сервер приложения.
+		На этом узле размещаются два артефакта:
+		\begin{itemize}
+			\item \textbf{CoreApp} — основной компонент приложения.
+			\item \textbf{Services} — набор сервисных компонентов.
+		\end{itemize}
+		
+		\item \textbf{Database Server} — сервер базы данных.
+		Здесь развёрнут один артефакт:
+		\begin{itemize}
+			\item \textbf{DB} — база данных.
+		\end{itemize}
+	\end{enumerate}
+	
+	Связи между узлами:
+	
+	\begin{itemize}
+		\item Между \textbf{Client Device} и \textbf{Application Server} установлена связь с кратностью 
+		от \textbf{многих к одному}.
+		
+		\item Между \textbf{Application Server} и \textbf{Database Server} указана связь 
+		\textbf{один к одному}, что отражает подключение серверного приложения к одному экземпляру базы данных.
+	\end{itemize}
+	
+	Таким образом, диаграмма отображает развёртывание основных компонентов системы: пользовательский интерфейс выполняется на клиентском устройстве, логика приложения — на сервере, а хранение данных осуществляется на выделенном сервере базы данных.
+	
+\end{document}
